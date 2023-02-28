@@ -1,0 +1,40 @@
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.left {
+    width: 25%;
+  left: 0;
+  background-color: #D6E4E5;
+}
+
+.right {
+  width: 75%;
+  right: 0;
+  background-color: #F1F6F5;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #2C3333;
+  border-radius: 50%;
+  display: inline-block;
+}
+img{
+  padding-left: 50px;
+}
+ hr{
+  width:90%;
+text-align:left;
+margin-left:0;
+}
+.solid {
+  border-style: ridge;
+  text-align: center;
+}
